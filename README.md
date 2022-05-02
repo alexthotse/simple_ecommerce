@@ -1,5 +1,5 @@
-# Simple Ecommerce website
-
+# Simple Ecommerce Project
+There are screenshots that accompany these instructions in https://github.com/alexthotse/simple_ecommerce/tree/main/simple_ecommerce/project-images
 
 Steps to run the program:
 1. Run RestApi first using {intellij or visual studio code}
