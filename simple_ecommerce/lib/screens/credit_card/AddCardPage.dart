@@ -594,7 +594,7 @@ class _AddCardPageState extends State<AddCardPage> {
                     child: Text(
                       'By continuing your confirm that you agree \nwith our Term and Condition.\n\nWHATEVER YOU DO, IN GOD\'S NAME: \nPLEASE DON\'T FILL IN REAL DETAILS\nDUMMY PROJECT',
                       textAlign: TextAlign.center,
-                      style: Theme.of(context).textTheme.caption,
+                      style: Theme.of(context).textTheme.bodySmall,
                     ),
                   ),
                 ],
