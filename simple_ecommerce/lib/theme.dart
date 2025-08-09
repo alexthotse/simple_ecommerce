@@ -2,13 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:simple_ecommerce/constants.dart';
 
+import 'package:google_fonts/google_fonts.dart';
+
 ThemeData theme() {
   return ThemeData(
     //App theme
     scaffoldBackgroundColor: Colors.brown[100],
-    // fontFamily: Google,
+    textTheme: GoogleFonts.robotoTextTheme(ThemeData.light().textTheme),
     appBarTheme: appBarTheme(),
-    textTheme: textTheme(),
     inputDecorationTheme: inputDecorationTheme(),
     visualDensity: VisualDensity.adaptivePlatformDensity,
   );
@@ -29,13 +30,6 @@ InputDecorationTheme inputDecorationTheme() {
     enabledBorder: outlineInputBorder,
     focusedBorder: outlineInputBorder,
     border: outlineInputBorder,
-  );
-}
-
-TextTheme textTheme() {
-  return TextTheme(
-    bodyLarge: TextStyle(color: kTextColor), // Formerly bodyText1
-    bodyMedium: TextStyle(color: kTextColor), // Formerly bodyText2
   );
 }
 
