@@ -41,6 +41,13 @@ dependencies:
   intl: ^0.20.2
   shared_preferences: ^2.5.3
 
+  # Dependencies for our new architecture
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  get_it: ^7.7.0
+  dio: ^5.5.0+1
+  pocketbase: ^1.1.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
