@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-import 'package:simple_ecommerce/constants.dart';
-import 'package:simple_ecommerce/providers/CardProvider.dart';
-import 'package:simple_ecommerce/providers/ChatProvider.dart';
-import 'package:simple_ecommerce/providers/RegisterProvider.dart';
-import 'package:simple_ecommerce/routes.dart';
-import 'package:simple_ecommerce/screens/splash/splash_screen.dart';
-import 'package:simple_ecommerce/theme.dart';
+import 'package:simple_ecommerce/presentation/core/constants/constants.dart';
+import 'package:simple_ecommerce/presentation/features/checkout/bloc/CardProvider.dart';
+import 'package:simple_ecommerce/presentation/features/chat/bloc/ChatProvider.dart';
+import 'package:simple_ecommerce/presentation/features/auth/bloc/RegisterProvider.dart';
+import 'package:simple_ecommerce/presentation/core/routes.dart';
+import 'package:simple_ecommerce/presentation/features/splash/splash_screen.dart';
+import 'package:simple_ecommerce/presentation/core/theme.dart';
 
 void main() {
   runApp(MyApp());
