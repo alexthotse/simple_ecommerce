@@ -1,20 +1,13 @@
 # Simple Ecommerce Project
-There are screenshots that accompany these instructions in https://github.com/alexthotse/simple_ecommerce/tree/main/simple_ecommerce/project-images
 
-Steps to run the program:
-1. Run RestApi first using {intellij or visual studio code}
-2. Run simple_ecommerce second
-3. Sign up in Simple ecommerce\
-![image](https://user-images.githubusercontent.com/30655517/166231529-68be40bd-d717-418f-afdc-0da4f0078917.png)
+This project contains a Flutter ecommerce application and a Spring Boot REST API.
 
-5. Login
-6. Click astronaut icon in the bottom navigation panel to add payment
-7. Click Add payment
-8. Click add button to add a new card
-9. Add details to your card
-10. You should see your newly added card at the bottom by scrolling down to the bottom of payment methods
-11. Click on the speech bubble to go to the store chat
-12. Chat away...
+## Components
 
-The app is still not complete by a long shot but it's a start!
-Hope you enjoy!! :)
+*   **simple_ecommerce**: A Flutter application that has been refactored to use Material Design for its UI components.
+*   **RestApi**: A Spring Boot REST API that serves as the backend for the Flutter application. This will be replaced in Phase 2 with a new backend built with Quarkus, Kotlin, and Camel.
+
+## Running the project
+
+1.  Run the `RestApi` first. You can use IntelliJ or Visual Studio Code to run the Spring Boot application.
+2.  Run the `simple_ecommerce` application. Make sure you have Flutter installed and the dependencies installed by running `flutter pub get` in the `simple_ecommerce` directory.

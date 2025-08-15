@@ -42,12 +42,13 @@ dependencies:
   shared_preferences: ^2.5.3
 
   # Dependencies for our new architecture
-  flutter_bloc: ^8.1.6
+  flutter_bloc: ^9.1.1
   equatable: ^2.0.5
-  get_it: ^7.7.0
+  get_it: ^8.2.0
   dio: ^5.5.0+1
-  pocketbase: ^1.1.0
+  pocketbase: ^0.23.0
 
+  http: any
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -71,9 +72,7 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  assets:
-     - assets/images/
-     - assets/icons/
+  
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
