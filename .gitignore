@@ -1,0 +1,33 @@
+# Build artifacts
+**/build/
+**/target/
+**/dist/
+
+# IDE files
+**/.idea/
+**/.vscode/
+**/.metadata
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Archive files
+*.zip
+*.tar.gz
+*.tar
+
+# Binary files
+**/pocketbase
+
+# Flutter specific
+**/*.exe
+**/*.dll
+**/*.so
+**/*.dylib
+
+# Log files
+*.log
+
+# Environment files
+.env
